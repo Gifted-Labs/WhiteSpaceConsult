@@ -1,0 +1,2 @@
+# WhiteSpaceConsult
+ Entrepreneurship Project
