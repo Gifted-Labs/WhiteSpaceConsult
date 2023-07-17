@@ -36,7 +36,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' || $_SERVER['REQUEST_METHOD'] == 'GET')
         $industry = $_POST['industry'];
         $desc = $_POST['desc'];
         $role = $_POST['role'];
-        $eType = $_POST['eType'];
+        $timeLine = $_POST['timeLine'];
         $status = $_POST['status'];
 
         if ($id > 0) {
@@ -48,12 +48,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' || $_SERVER['REQUEST_METHOD'] == 'GET')
                 . "`salary`='$salary', "
                 . "`industry`='$industry', "
                 . "`role`='$role', "
-                . "`employmentType`='$eType', "
+                . "`timeline`='$timeLine', "
                 . "`status`= '$status' "
                 . "where id=$id and eid=$eid;";
         } else {
-            $sql = "INSERT INTO `post` (`id`, `date`, `eid`, `name`, `category`, `minexp`, `desc`, `salary`, `industry`, `role`, `employmentType`, `status`) "
-                . "VALUES (NULL, CURRENT_DATE(), '$eid', '$name', '$category', '$minexp', '$desc', '$salary', '$industry', '$role', '$eType', '$status');";
+            $sql = "INSERT INTO `post` (`id`, `date`, `eid`, `name`, `category`, `minexp`, `desc`, `salary`, `industry`, `role`, `timeline`, `status`) "
+                . "VALUES (NULL, CURRENT_DATE(), '$eid', '$name', '$category', '$minexp', '$desc', '$salary', '$industry', '$role', '$timeLine', '$status');";
         }
 
         if ($conn->query($sql) === TRUE) {
@@ -78,7 +78,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' || $_SERVER['REQUEST_METHOD'] == 'GET')
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="img/jobsConnect.svg" type="image/x-icon">
-    <title> Post A Job | Employer</title>
+    <title> Post a Gig | Client</title>
 
     <link href="css/simpleGridTemplate.css" rel="stylesheet" type="text/css">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
@@ -177,43 +177,46 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' || $_SERVER['REQUEST_METHOD'] == 'GET')
                             </div>
 
                             <div class="form-group">
-                                <label for="category">Job Category</label>
+                                <label for="category">Gig Category</label>
                                 <select type="text" name="category" class="form-control" style="border-radius:0px; height: 50px;" placeholder="Category"> <?php include 'categoryOptions.php'; ?>
                                 </select>
                             </div>
+                            
 
+                            <!--
                             <div class="form-group">
                                 <label for="minexp">Minimum Experiance</label>
                                 <input type="text" name="minexp" class="form-control" style="border-radius:0px; height: 50px;" placeholder="Enter Minimum Expireince" value="<?php echo $minexp; ?>" />
                             </div>
 
+    -->
+
                             <div class="form-group">
-                                <label for="salary">Salary Budget</label>
+                                <label for="salary">Gig Budget</label>
                                 <input type="text" name="salary" class="form-control" style="border-radius:0px; height: 50px;" placeholder="Enter Salary" value="<?php echo $salary; ?>" />
                             </div>
 
                             <div class="form-group">
-                                <label for="industry">Job industry</label>
+                                <label for="industry">Gig industry</label>
                                 <select type="text" name="industry" class="form-control" style="border-radius:0px; height: 50px;" placeholder="Industry"> <?php include 'industryOptions.php'; ?>
                                 </select>
                             </div>
 
 
                             <div class="form-group">
-                                <label for="desc">Job requirements</label>
+                                <label for="desc">Job Description</label>
                                 <input type="text" name="desc" class="form-control" style="border-radius:0px; height: 50px;" placeholder="Description" value="<?php echo $desc; ?>" />
                             </div>
 
                             <div class="form-group">
-                                <label for="role">Role</label>
-                                <input type="text" name="role" class="form-control" style="border-radius:0px; height: 50px;" placeholder="Enter Role" value="<?php echo $role; ?>" />
+                                <label for="role">Additional Comments</label>
+                                <input type="text" name="role" class="form-control" style="border-radius:0px; height: 50px;" placeholder="Additional Comments" value="<?php echo $role; ?>" />
                             </div>
 
                             <div class="form-group">
-                                <label for="eType">Employment Type</label>
-                                <select type="text" name="eType" class="form-control" style="border-radius:0px; height: 50px;">
-                                    <option>Permanent</option>
-                                    <option>Part-Time</option>
+                                <label for="timeLine">Time Line</label>
+                                <input type="date" name="timeLine" class="form-control" style="border-radius:0px; height: 50px;">
+                                    
                                 </select>
                             </div>
 
@@ -232,7 +235,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' || $_SERVER['REQUEST_METHOD'] == 'GET')
                             <div class="form-group bbb">
 
                                 <button type="submit" name="submitPost" class="btn" style="background-color: #001219; color: #e9d8a6;
-                            box-shadow: none; border-radius: 0px; height: 50px; width: 500px;"> <b> POST A JOB </b> </button>
+                            box-shadow: none; border-radius: 0px; height: 50px; width: 500px;"> <b> POST A GIG</b> </button>
 
                                 <!--display message-->
                                 <div style="font-family: Sora; font-size: 15px; color: #ffd6a5; padding-top: 15px;">

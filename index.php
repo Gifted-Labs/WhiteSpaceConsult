@@ -86,7 +86,7 @@
                 <h1 class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">Explore By Category</h1>
                 <div class="row g-4">
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
-                      <a class="cat-item rounded p-4" href="">
+                      <a class="cat-item rounded p-4" href="jobs.php">
                       <i class="fas fa-scissors fa-3x text-primary mb-4"></i>
                       <h6 class="mb-3">Marketing</h6>
                       <p class="mb-0">123 Vacancy</p>
