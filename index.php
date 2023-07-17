@@ -87,21 +87,21 @@
                 <div class="row g-4">
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                       <a class="cat-item rounded p-4" href="jobs.php">
-                      <i class="fas fa-scissors fa-3x text-primary mb-4"></i>
+                      <i class="fas fa-car fa-3x text-primary mb-4"></i>
                       <h6 class="mb-3">AutoMobile</h6>
                       <p class="mb-0">123 Vacancy</p>
                     </a>
                 </div>
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <a class="cat-item rounded p-4" href="">
-                            <i class="fa fa-3x fa-headset text-primary mb-4"></i>
+                        <a class="cat-item rounded p-4" href="jobs.php">
+                            <i class="fa fa-3x fa-user-friends text-primary mb-4"></i>
                             <h6 class="mb-3">Textile & Fashion</h6>
                             <p class="mb-0">123 Vacancy</p>
                         </a>
                     </div>
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
                         <a class="cat-item rounded p-4" href="">
-                            <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
+                            <i class="fa fa-3x fa-bolt text-primary mb-4"></i>
                             <h6 class="mb-3">Elericals & Electronics</h6>
                             <p class="mb-0">123 Vacancy</p>
                         </a>
@@ -116,20 +116,20 @@
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                         <a class="cat-item rounded p-4" href="">
                             <i class="fa fa-3x fa-chart-line text-primary mb-4"></i>
-                            <h6 class="mb-3">Arts and Photography</h6>
+                            <h6 class="mb-3"></h6>
                             <p class="mb-0">123 Vacancy</p>
                         </a>
                     </div>
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
                         <a class="cat-item rounded p-4" href="">
-                            <i class="fa fa-3x fa-hands-helping text-primary mb-4"></i>
+                            <i class="fa fa-3x fa-laptop text-primary mb-4"></i>
                             <h6 class="mb-3">Mobiles & Computers</h6>
                             <p class="mb-0">123 Vacancy</p>
                         </a>
                     </div>
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
                         <a class="cat-item rounded p-4" href="">
-                            <i class="fa fa-3x fa-book-reader text-primary mb-4"></i>
+                            <i class="fa fa-3x fa-home text-primary mb-4"></i>
                             <h6 class="mb-3">General Household Works</h6>
                             <p class="mb-0">123 Vacancy</p>
                         </a>
