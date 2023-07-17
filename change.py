@@ -8,7 +8,7 @@ def main():
 
 def copyBook():
     codes = []
-    inputfile = open("index.php","r")
+    inputfile = open("industryOptions.php","r")
 
     codes = inputfile.readlines()
 
@@ -18,11 +18,11 @@ def copyBook():
 def changeNames(mylist):
     file = mylist
 
-    outputfile = open("index.php", 'w')
+    outputfile = open("industryOptions.php", 'w')
 
 
     for lines in file:
-        lines = lines.replace("JobsConnect" or "jobsConnect" or "jobsconnect", "ToolBox")
+        lines = lines.replace("Accounting , Finance" or "jobsConnect" or "jobsconnect", "ToolBox")
         outputfile.write(lines)
 
     outputfile.close()       

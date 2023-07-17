@@ -2,9 +2,9 @@
 
 ?>
 <option>- All Job Postings -</option>
-<option>Accounting Jobs</option>
-<option>Interior Design Jobs</option>
-<option>Bank Jobs</option>
+<option>Fashion Design Gigs</option>
+<option>Phone Repairs</option>
+<option>Laptop Repairs</option>
 <option>Content Writing Jobs</option>
 <option>Consultant Jobs</option>
 <option>Engineering Jobs</option>

@@ -1,3 +1,11 @@
+<?php
+
+
+if (session_status() == PHP_SESSION_NONE) {
+  session_start();
+}
+
+?>
 <!--FONTS-->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,7 +22,7 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="index.php" style="padding-left: 50px; font-size:25px; color:white; font-family: 'Sora', sans-serif">
-        JobsConnect
+        ToolBox
       </a>
     </div>
 
@@ -26,9 +34,6 @@
       <ul class="nav navbar-nav navbar-right ">
         <?php
 
-        if (session_status() == PHP_SESSION_NONE) {
-          session_start();
-        }
         if (isset($_SESSION['login_user']))   // Checking whether the session is already there or not if 
         // true then header redirect it to the home page directly 
         {
