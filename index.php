@@ -46,7 +46,7 @@
         <div class="container-fluid p-0">
             <div class="owl-carousel header-carousel position-relative">
                 <div class="owl-carousel-item position-relative">
-                    <img class="img-fluid" src="img/carousel_1.jpg" alt="">
+                    <img class="img-fluid" src="img/workers.jpg" alt="">
                     <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(43, 57, 64, .5);">
                         <div class="container">
                             <div class="row justify-content-start">
@@ -61,7 +61,7 @@
                     </div>
                 </div>
                 <div class="owl-carousel-item position-relative">
-                    <img class="img-fluid" src="img/carousel_2.jpg" alt="">
+                    <img class="img-fluid" src="img/workers2.jpg" alt="">
                     <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(43, 57, 64, .5);">
                         <div class="container">
                             <div class="row justify-content-start">
@@ -88,21 +88,21 @@
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                       <a class="cat-item rounded p-4" href="jobs.php">
                       <i class="fas fa-scissors fa-3x text-primary mb-4"></i>
-                      <h6 class="mb-3">Marketing</h6>
+                      <h6 class="mb-3">AutoMobile</h6>
                       <p class="mb-0">123 Vacancy</p>
                     </a>
                 </div>
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
                         <a class="cat-item rounded p-4" href="">
                             <i class="fa fa-3x fa-headset text-primary mb-4"></i>
-                            <h6 class="mb-3">Customer Service</h6>
+                            <h6 class="mb-3">Textile & Fashion</h6>
                             <p class="mb-0">123 Vacancy</p>
                         </a>
                     </div>
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
                         <a class="cat-item rounded p-4" href="">
                             <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
-                            <h6 class="mb-3">Human Resource</h6>
+                            <h6 class="mb-3">Elericals & Electronics</h6>
                             <p class="mb-0">123 Vacancy</p>
                         </a>
                     </div>
@@ -116,21 +116,21 @@
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                         <a class="cat-item rounded p-4" href="">
                             <i class="fa fa-3x fa-chart-line text-primary mb-4"></i>
-                            <h6 class="mb-3">Business Development</h6>
+                            <h6 class="mb-3">Arts and Photography</h6>
                             <p class="mb-0">123 Vacancy</p>
                         </a>
                     </div>
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
                         <a class="cat-item rounded p-4" href="">
                             <i class="fa fa-3x fa-hands-helping text-primary mb-4"></i>
-                            <h6 class="mb-3">Sales & Communication</h6>
+                            <h6 class="mb-3">Mobiles & Computers</h6>
                             <p class="mb-0">123 Vacancy</p>
                         </a>
                     </div>
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
                         <a class="cat-item rounded p-4" href="">
                             <i class="fa fa-3x fa-book-reader text-primary mb-4"></i>
-                            <h6 class="mb-3">Teaching & Education</h6>
+                            <h6 class="mb-3">General Household Works</h6>
                             <p class="mb-0">123 Vacancy</p>
                         </a>
                     </div>
